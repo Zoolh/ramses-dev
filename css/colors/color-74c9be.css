@@ -1,0 +1,67 @@
+/**
+* Template Name: Marco
+* Template URL: https://templatemag.com/marco-bootstrap-agency-template/
+* Author: TemplateMag.com
+* License: https://templatemag.com/license/
+*/
+
+/* COLOR CONF */
+
+/* Links */
+
+a {
+  color: #F39300;
+}
+
+.si i {
+  color: #74c9be;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #ffffff;
+  background-color: #F39300;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #F39300;
+}
+
+.btn-theme {
+  background-color: #F39300;
+}
+
+.tabbable .nav-stacked>li:active, li:focus, li.active h4 {
+  color: #F39300;
+}
+
+#cta-bar:hover {
+  background: #F39300;
+}
+
+p.capitalize:first-letter {
+  background: #F39300;
+}
+
+.team-info {
+  background: #74c9be;
+}
+
+#black i {
+  color: #F39300;
+}
+
+.progress-bar-theme {
+  background-color: #F39300;
+}
+
+.team-stat i {
+  color: #F39300;
+}
+
+.pricing-table-plan {
+  border-top: 4px solid #F39300;
+}
+
+.blog-post blockquote {
+  border-left: 4px solid #F39300;
+}
