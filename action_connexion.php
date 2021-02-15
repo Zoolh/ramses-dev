@@ -1,6 +1,10 @@
 
 <?php
-session_start();
+
+if(!isset($_SESSION)){
+  session_start();
+}
+
 if (isset($_POST['login']) && isset($_POST['motdepasse']) && isset($_POST['connexion'])) {
   include('bdd/bdd_include.php');
   $login = htmlspecialchars($_POST['login'], ENT_QUOTES, 'UTF-8', false);

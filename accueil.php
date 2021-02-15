@@ -1,7 +1,11 @@
 <?php 	
 
 ob_start();
-session_start();
+if(!isset($_SESSION)){
+  session_start();
+}
+
+
 require('infos_session.php');
 if(empty($_SESSION['login'])){
 		header('Location: index.php ');
